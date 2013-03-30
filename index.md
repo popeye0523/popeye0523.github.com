@@ -2,6 +2,7 @@
 layout: page
 title: POST List
 tagline: Supporting tagline
+comments : false
 ---
 {% include JB/setup %}
 
