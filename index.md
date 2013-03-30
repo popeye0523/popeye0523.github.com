@@ -1,7 +1,7 @@
 ---
 layout: page
-title: POST List
-tagline: Supporting tagline
+title: "文章列表"
+tagline: "最新的文章双手奉上啦"
 comments : false
 ---
 {% include JB/setup %}
