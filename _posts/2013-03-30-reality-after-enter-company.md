@@ -2,11 +2,10 @@
 layout: post
 title: "进入公司后看真实的一幕"
 description: ""
-category: 
-tags: []
+category: 娱乐一刻
+tags: 娱乐 转载
 ---
 {% include JB/setup %}
-
 <p>老板：万分欢迎，没有你我们的公司肯定大不一样！
   <br /><font style="bold">职员</font>：如果工作太累，搞不好我会辞职的
   <br /><font style="bold">老板</font>：放心，我不会让这样的事情发生的！
