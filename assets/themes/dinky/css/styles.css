@@ -412,7 +412,7 @@ footer {
 
 /* 愚人节专用！ */
 #yurenjie {
-	position: absolute;
+	position: reletive;
 	width: 500px;
 	height: 500px;
 	padding: 10px;
