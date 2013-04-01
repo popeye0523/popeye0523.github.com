@@ -1,0 +1,20 @@
+chcp 65001
+jekyll --server
+
+# 在本地新建一个文件夹foo.github.com
+$ mkdir foo.github.com
+# 进入文件夹根目录
+$ cd foo.github.com
+# 初始化
+$ git init
+$ touch README
+$ git add README
+# 在根目录下新建一个index.html页面，随便写点什么
+# 把index.html加入到仓库中
+$ git add .
+# 提交修改
+$ git commit -m 'first commit'
+# 添加github的分支
+$ git remote add origin git@github.com:foo/foo.github.com.git
+# 提交到github分支
+$ git push origin master
