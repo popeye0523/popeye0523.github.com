@@ -16,4 +16,4 @@
 [Xueyong Gao](http://www.54gxy.com/)
 
 # Thanks
-[Github](http://www.github.com) [jekyll](http://jekyllbootstrap.com) [bootstrap](http://twitter.github.com/bootstrap/)
+[Github](http://www.github.com)、 [jekyll](http://jekyllbootstrap.com)、 [bootstrap](http://twitter.github.com/bootstrap/)
