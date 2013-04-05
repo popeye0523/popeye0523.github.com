@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+
+/* 愚人节专用！ */
+#yurenjie {
+	position: reletive;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	margin-top: -1px;
+	margin-left: -1px;
+	transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	-webkit-transform: rotate(-8deg);
+	-moz-transform: rotate(-8deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.98480775301220805936674302458952, M12=-0.17364817766693034885171662676931, M21=0.17364817766693034885171662676931, M22=0.98480775301220805936674302458952)";
+}
