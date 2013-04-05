@@ -26,15 +26,20 @@
   </div>
   
   <div class="span4">
-    <h4>发表于</h4>
-    <div class="date"><span>{{ page.date | date:"%Y年%m月%d日" }}</span></div>
+    <div>
+      <h4>发表于</h4>
+      <div class="date"><span>{{ page.date | date:"%Y年%m月%d日" }}</span></div>
 
-  {% unless page.tags == empty %}
-    <h4>标签</h4>
-    <ul class="tag_box">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
+      {% unless page.tags == empty %}
+      <h4>标签</h4>
+      <ul class="tag_box">
+        {% assign tags_list = page.tags %}
+        {% include JB/tags_list %}
+      </ul>
+      {% endunless %}  
+    </div>
+	<div>
+      <iframe width="100%" height="800" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=800&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=0&isWeibo=1&isFans=0&uid=1186989994&verifier=6ddf902b&dpc=1"></iframe>
+    </div>
   </div>
 </div>

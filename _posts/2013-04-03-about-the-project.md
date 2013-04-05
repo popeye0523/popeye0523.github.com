@@ -4,7 +4,7 @@ title: "关于项目的一点想法"
 date: 2013-04-03
 description: ""
 category: blog
-tags: [开发 管理]
+tags: [项目管理, 产品管理]
 ---
 {% include JB/setup %}
 # 项目的定位  
