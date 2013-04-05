@@ -3,7 +3,10 @@
 </div>
 
 <div class="row">
-  <div class="span10">
+  <div class="span3">
+      <iframe width="100%" height="400" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=400&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1186989994&verifier=6ddf902b&colors=d6f3f7,ffffff,666666,0082cb,a9f3e1&dpc=1"></iframe>
+  </div>
+  <div class="span11">
     {{ content }}
     <hr>
     <div class="pagination">
@@ -25,13 +28,13 @@
     {% include JB/comments %}
   </div>
   
-  <div class="span4">
+  <div class="span3">
     <div>
-      <h4>发表于</h4>
+      <h3>发表于</h3>
       <div class="date"><span>{{ page.date | date:"%Y年%m月%d日" }}</span></div>
 
       {% unless page.tags == empty %}
-      <h4>标签</h4>
+      <h3>标签</h3>
       <ul class="tag_box">
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
@@ -39,7 +42,11 @@
       {% endunless %}  
     </div>
 	<div>
-      <iframe width="100%" height="800" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=500&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1186989994&verifier=6ddf902b&colors=d6f3f7,ffffff,666666,0082cb,a9f3e1&dpc=1"></iframe>
-    </div>
+	  <h3>GitHub Repos</h3>
+	  <ul id="my_repos">
+	    <li><a href="https://github.com/popeye0523/popeye0523.github.com">popeye0523.github.com</a><p>博客源码</p></li>
+		<li><a href="https://github.com/popeye0523/theme-popeye">theme-popeye</a><p>主题源码</p></li>
+	  </ul>
+	</div>
   </div>
 </div>
