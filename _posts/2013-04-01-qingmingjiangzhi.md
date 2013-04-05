@@ -4,9 +4,10 @@ title: "清明将至"
 description: ""
 category: blog
 tags: 清明 笑话
+css: /css/mystyles.css
 ---
 {% include JB/setup %}
-![清明数码套装](http://img4.cache.netease.com/photo/0001/2013-04-01/900x600_8RDHT70C3R710001.jpg)
+![清明数码套装](/blog/image/qingmingjiangzhi.jpg)
 <div id="yurenjie">
 清明将至，同事去买祭品，看到居然有纸糊的苹果手机，有些不以为然：啊哈，烧苹果手机？老祖宗会用吗？
 <br>
