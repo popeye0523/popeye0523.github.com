@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1>
+  <h1 style="text-align:center;"><a href="{{ page.url }}">{{ page.title }}</a> <small>{{ page.tagline }}</small></h1>
 </div>
 
 <div class="row">
@@ -32,9 +32,10 @@
     <div>
       <h3>本文写于</h3>
       <div class="date"><span>{{ page.date | date:"%Y年%m月%d日" }}</span></div>
-
-      {% unless page.tags == empty %}
+	  <br />
+	  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/cn/80x15.png" /></a>本作品由<a href="http://www.54gxy.com/">popeye0523</a>原创，采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可，请共享时注明<a href="{{ page.url }}">本文地址</a>。
     </div>
+	{% unless page.tags == empty %}
 	<hr />
 	<div>
 	  <h3>本文标签</h3>
@@ -42,8 +43,8 @@
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
       </ul>
-      {% endunless %}  
     </div>
+	{% endunless %}  
 	<hr />
 	<div>
 	  <h3>其他文章</h3>
