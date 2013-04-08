@@ -54,6 +54,19 @@
 	  {% for post in site.related_posts limit:5%}
         <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
+	  <script>
+		  (function() {
+			var cx = '017162196479615511615:ig2s-zjwjpa';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+				'//www.google.com/cse/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
 	  <script  type="text/javascript" charset="utf-8"  src="http://s.cnzz.net/cs.php?id=900016456"></script>
 	</div>
 	<hr />
