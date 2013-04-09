@@ -4,7 +4,7 @@ title: "与YL公司的合作"
 date: 2013-04-07
 description: ""
 category: blog
-tags: [发展 数据 灾备]
+tags: [发展, 数据, 灾备]
 ---
 之所以会写我们与YL公司的合作，是从对方建议的技术交流活动想到的。
 
