@@ -3,7 +3,7 @@ layout: post
 title: "进入公司后看真实的一幕"
 description: ""
 category: blog
-tags: 娱乐 转载
+tags: [笑话, 转载]
 ---
 {% include JB/setup %}
 **老板**：万分欢迎，没有你我们的公司肯定大不一样！
