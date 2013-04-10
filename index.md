@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "最近发表"
 comments : false
 ---
 {% include JB/setup %}
