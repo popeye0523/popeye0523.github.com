@@ -1,0 +1,8 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: xygao
+  Site: http://popeye0523.github.com
+  Location: Shandong, China
