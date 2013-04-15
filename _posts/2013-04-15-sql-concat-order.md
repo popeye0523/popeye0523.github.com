@@ -27,9 +27,11 @@ group by m ;
 我照葫芦画瓢写了一个：  
 <pre>
 <code>
+{% highlight sql %}
 select  ves,voy,bln, max(r) as message
 from (select  t.ves,t.voy, t.bln,wmsys.wm_concat(t.response_code||'~'||t.response_text||'~'||t.mtime) over (partition by t.ves,t.voy,t.bln order by t.mtime) r from v_ccre_info t where t.bln is not null)
 group by ves,voy,bln
+{% endhighlight %}
 </code>
 </pre>
 
