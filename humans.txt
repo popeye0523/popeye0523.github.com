@@ -4,5 +4,11 @@
 
 /* TEAM */
   Developer: xygao
+  Blogs: 
+      xygao
+      wjzhang
   Site: http://popeye0523.github.com
   Location: Shandong, China
+
+/* CONTENT */
+  这里分享关于IT技术、环境科学方面的个人体验。
