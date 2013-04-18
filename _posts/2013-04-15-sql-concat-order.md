@@ -16,14 +16,17 @@ B给A回复处理结果。
 现需要将每组数据的发送过程、回复结果等等统计出来。
 
 感谢funnsy提供的[解决方案](http://blog.csdn.net/funnsy/article/details/7479946):  
-{% highlight sql %}
+<pre>
+<code>
 select m, max(r)
 from (select m, wm_concat(n) over (partition by m order by n) r from t)
 group by m ;
-{% endhighlight %}
+</code>
+</pre>
 
 我照葫芦画瓢写了一个：  
-{% highlight sql %}
+<pre>
+<code>
 select ves, voy, bln, max(r) as message  
   from (select t.ves,  
                t.voy,  
@@ -33,6 +36,7 @@ select ves, voy, bln, max(r) as message
           from v_ccre_info t  
          where t.bln is not null)  
  group by ves, voy, bln  
-
+</code>
+</pre>
 
 看来Oracle的分析函数确实比较好用。
