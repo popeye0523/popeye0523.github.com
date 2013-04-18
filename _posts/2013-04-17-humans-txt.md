@@ -39,3 +39,8 @@ humans.txt倡议者网站建议，在这个小文件里面写上整个网站工�
 本文图片引用自[humans.txt提倡者网站](http://humanstxt.org/ZH)  
 humans.txt提倡者的[书写范例](http://humanstxt.org/humans.txt)  
 google的[humans.txt](http://www.google.com.hk/humans.txt)  
+
+## 本站
+本站也写了一个，目前只有我自己，如果有其他人加入，再慢慢补充。
+查看请点击每篇文章右面的这个图
+<a href="{{ BASE_PATH }}/humans.txt"><img src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif"></a>
