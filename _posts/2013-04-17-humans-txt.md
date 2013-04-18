@@ -38,4 +38,4 @@ humans.txt倡议者网站建议，在这个小文件里面写上整个网站工�
 内容摘自百度百科[humans.txt](http://baike.baidu.com/view/9318819.htm)  
 本文图片引用自[humans.txt提倡者网站](http://humanstxt.org/ZH)  
 humans.txt提倡者的[书写范例](http://humanstxt.org/humans.txt)  
-[google的humans.txt](http://www.google.com.hk/humans.txt)  
+google的[humans.txt](http://www.google.com.hk/humans.txt)  
