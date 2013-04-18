@@ -11,4 +11,4 @@
   Location: Shandong, China
 
 /* CONTENT */
-  这里分享关于IT技术、环境科学方面的个人体验。
+  这里主要分享xygao和wjzhang关于IT技术、环境科学方面的个人感悟，当然也有些可以忽略掉的生活琐事。
