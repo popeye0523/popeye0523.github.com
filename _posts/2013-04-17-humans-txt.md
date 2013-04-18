@@ -23,7 +23,7 @@ date: 2013-04-17
 humans.txt和meta并不是一种斗争，而是一种扩大作者信息的补充。
 
 ## 如何书写humans.txt
-对于相信humans.txt可以带来友好和交流的站长、用户们来说，加入这个队伍只需要花费一点小小的功夫：打开文本文件将网站信息写入，然后将humans.txt文件保存到网站根目录下，并将<link type="text/plain" rel="author" href="humans.txt文件访问地址" />代码置入到</head>之前。
+对于相信humans.txt可以带来友好和交流的站长、用户们来说，加入这个队伍只需要花费一点小小的功夫：打开文本文件将网站信息写入，然后将humans.txt文件保存到网站根目录下，并将\<link type="text/plain" rel="author" href="humans.txt文件访问地址" />代码置入到\</head>之前。
 
 ## 开始署名吧
 ![署上自己的名字](http://humanstxt.org/img/Illustration-home/05-who-should-i-mention.png)  
