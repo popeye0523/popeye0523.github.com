@@ -54,7 +54,7 @@ date: 2013-04-18
 <br/>
 <a href="http://www.20ju.com/content/V233016.htm">原文链接</a>
 <br/>
-<a href="javascript:(document.getElementById('copyblog').style.display=='block')?document.getElementById('copyblog').style.display='none':document.getElementById('copyblog').style.display='block'">点击阅读/关闭</a>
+<a href="javascript:document.getElementById('copyblog').style.display='block'">点击关闭</a><br/>
 </div>
 
 ## 以前写的文字  
