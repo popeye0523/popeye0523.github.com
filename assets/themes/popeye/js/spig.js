@@ -74,15 +74,26 @@ jQuery(document).ready(function ($) {
 
 //鼠标在某些元素上方时
 jQuery(document).ready(function ($) {
-    $('a').click(function () {//标题被点击时
-        showMessage('正在用吃奶的劲加载<span style="color:#0099cc;">' + $(this).text() + '</span>请稍候');
+    //链接被点击时
+	$('a').click(function () {
+		//如果是文本链接
+        if($(this).text()!="")
+			showMessage('正在用吃奶的劲加载<span style="color:#0099cc;">' + $(this).text() + '</span>请稍候');
     });
+	
+	//鼠标滑过链接
     $('a').mouseover(function () {
-        showMessage('要看看<span style="color:#0099cc;">' + $(this).text() + '</span>么？');
+		//如果是文本链接
+		if($(this).text()!="")
+			showMessage('要看看<span style="color:#0099cc;">' + $(this).text() + '</span>么？');
     });
+	
+	//搜索框聚焦
 	$('#gxysearch').focus(function () {
-        showMessage('输入你想搜索的关键词再按Enter(回车)键就可以搜索啦!');
+        showMessage('输入你想搜索的关键词再按Enter(回车)键就可以搜索啦！如果你对普通话很自信，也可以尝试语音哟');
     });
+	
+	//jiathis鼠标滑过
     $('.jiathis_style').mouseover(function () {
         showMessage('你知道吗?点它可以分享本文哦');
     });
