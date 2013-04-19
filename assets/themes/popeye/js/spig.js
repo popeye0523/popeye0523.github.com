@@ -80,12 +80,6 @@ jQuery(document).ready(function ($) {
     $('a').mouseover(function () {
         showMessage('要看看<span style="color:#0099cc;">' + $(this).text() + '</span>么？');
     });
-	$('#uyan_comment').mouseover(function () {
-        showMessage('<span style="color:#0099cc;">' + visitor + '</span> 向评论栏出发吧！');
-    });
-    $('#uyan_comment').click(function(){
-        showMessage('认真填写哦！不然会被认作垃圾评论的！我的乖乖~?');
-    });
 	$('#gxysearch').focus(function () {
         showMessage('输入你想搜索的关键词再按Enter(回车)键就可以搜索啦!');
     });
