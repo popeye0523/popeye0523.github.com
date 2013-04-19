@@ -5,7 +5,6 @@ description: ""
 category: blog
 tags: [程序员, 文学, 情感]
 date: 2013-04-18
-post_status: no
 ---
 {% include JB/setup %}
 ## 推荐一篇文章给大家看看
