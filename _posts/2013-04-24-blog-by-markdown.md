@@ -26,7 +26,7 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 简书提供了一种编辑器的预览模式，左边编辑右边预览，像[muhua](http://mahua.jser.me/)之类的在线编辑器也有这样的功能，如果还是有些许在意你的格式，可以在这里看一下是否有写错的地方。
 
-另外，简书还有两个比较人性化的功能，可以把全部笔记像博客一样发布，也可以全部导出为Html格式的文件。
+另外，简书还有两个比较人性化的功能，可以把全部笔记像博客一样发布，也可以全部导出为.md后缀的文件压缩包。
 
 ## Scriptogr.am
 [Scriptogr.am](Scriptogr.am)可以和Dropbox很好的结合。将Dropbox账号和 Scriptogr.am关联之后Scriptogr.am会在dropbox下面生成Apps/scriptogram/posts文件夹，只要 把.md文件放在posts里面，在Scriptogr.am上点击同步，就会发布成功。
