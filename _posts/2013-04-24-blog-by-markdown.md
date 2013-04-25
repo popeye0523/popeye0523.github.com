@@ -3,7 +3,7 @@ layout: post
 title: "用Markdown写博客"
 description: ""
 category: blog
-tags: Markdown, Jekyll, 简书, Scriptogr.am
+tags: Markdown ,Jekyll ,简书 ,Scriptogr.am
 ---
 {% include JB/setup %}
 
