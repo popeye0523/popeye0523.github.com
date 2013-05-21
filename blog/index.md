@@ -1,10 +1,9 @@
----
+﻿---
 layout: post
 title: "日志列表"
 description: ""
 category: blog
 ---
-{% include JB/setup %}
 {% include JB/setup %}
 
 <ul class="posts">
