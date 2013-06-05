@@ -7,6 +7,7 @@ tags: [大城市, 家乡, 打工]
 date: 2013-05-22
 ---
 {% include JB/setup %}
+转自[新浪网](http://slide.henan.sina.com.cn/slide_18_37270_108709.html)
 ![](/blog/image/tongyangdeyibeizi/1.jpg)
 ![](/blog/image/tongyangdeyibeizi/2.jpg)
 ![](/blog/image/tongyangdeyibeizi/3.jpg)
