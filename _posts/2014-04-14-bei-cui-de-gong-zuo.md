@@ -10,7 +10,7 @@ tags: 工作
 <table border='1' cellspacing="0">
  <tr>
   <td>任务大类</td>
-  <td>任务小类</td>
+  <td width="150">任务小类</td>
   <td>任务数</td>
   <td>总时间</td>
   <td>平均单任务</td>
